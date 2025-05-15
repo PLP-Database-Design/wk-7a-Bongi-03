@@ -1,4 +1,4 @@
--- Question 1 Achieving 1NF 🛠️
+-- Question 1 Achieving 1NF 
 -- Transform ProductDetail to 1NF structure
 CREATE TABLE ProductDetail_1NF (
   OrderID INT,
@@ -15,7 +15,7 @@ VALUES
 (102, 'Jane Smith', 'Mouse'),
 (103, 'Emily Clark', 'Phone');
 
--- Question 2 Achieving 2NF 🧩
+-- Question 2 Achieving 2NF
 -- Create separate Orders and OrderItems tables to remove partial dependencies
 CREATE TABLE Orders (
   OrderID INT PRIMARY KEY,
